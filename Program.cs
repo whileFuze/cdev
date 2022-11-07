@@ -98,10 +98,10 @@ class MainClass
         if (IsSorted == true) SortArrayDesc(temp);
         foreach (int i in temp) Console.WriteLine(i);
     }
-    static void Main()
+    static void NotMain()
     {
         int[] arr1 = GetArrayFromConsole();
-        arr1 = SortArray(arr1);
+        ///arr1 = SortArray(arr1);
         ShowArray(arr1);
     }
 }
